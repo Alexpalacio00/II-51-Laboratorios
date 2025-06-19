@@ -1,0 +1,21 @@
+h1 {
+  color: blue;
+  text-shadow: 2px 2px 10px gray; /* Adds a shadow to the text */
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background-color: beige;
+  box-shadow: 10px 10px 5px  lightblue;
+  transition: width 10s, height 5s; /* Smooth transition for width and height */
+  
+}
+
+
+div:hover {
+  width: 300px;
+  height: 300px;
+}
+
