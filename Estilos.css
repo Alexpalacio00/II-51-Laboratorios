@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+/* Mejora visual del formulario solo en login */
+body.login-page form {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Encabezado principal */
+header {
+  background-color: #d37963;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Barra de navegación */
+nav {                      
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {                          /* Efecto hover en enlaces de navegación */
+  text-decoration: underline;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr:hover {                          /* Efecto hover en filas de tabla */
+  background-color: #e6f2ff;
+  transition: background-color 0.3s ease;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Formulario de login */
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  width: 300px;
+  margin: auto;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+/* Animación de entrada para las tablas*/
+tr {
+  opacity: 1;
+  transform: translateY(20px);
+  animation: fadeInUp 0.10s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 2;
+    transform: translateY(0);
+  }
+}
+
+
+
+
